@@ -1,0 +1,134 @@
+/* font-awsome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* --------
+ body 
+-------  */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+/* -------
+It is header
+------------  */
+.top{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+}
+.topper{
+   display: flex;
+}
+.topper-text{
+    width: 485px;
+    height: 230px;
+    color: #FFFFFF;
+    margin-left: 156px;
+    margin-top: 130px;
+    font-size: 35px;
+    line-height: 70px;
+
+}
+.watch-now{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+}
+.topper-banner{
+    width: 40%;
+}
+.topper-banner img{
+    width: 557px;
+    height: 440px;
+    margin-top: 153px;
+    margin-right: 191px;
+
+}
+.topper-banner:hover img{
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+    transition: transform 1.8s ease-in-out;
+}
+
+/* -------------------
+main player section
+---------------------- */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px; 
+    grid-row-gap: 27px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.player{
+    height: 474px;
+    width: 330px;
+    margin: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid 1px white;
+    box-shadow: 0 0 40px gray;
+    
+}
+.player img{
+        width: 100%;
+        
+}
+
+/* ---------------------------
+     Highlight Section Style---
+ -----------------------------*/
+.highlights{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 155px;
+}
+.highlight-text{
+    width: 470px;
+    height: 310px;
+    margin-left: 182px;
+    margin-right: 33px;
+
+}
+.highlight-text h1{
+    font-size: 30px;
+    font-weight: 700;
+    
+}   
+
+.highlight-picture{
+    width: 40%;
+}
+.highlight-picture img{
+    width: 567px;
+    height: 427px;
+    margin-left: 33px;
+}
+
+.highlight-picture img{
+    width: 567px;
+    height: 427px;
+}
+
+/* ----------------------
+     footer section
+--------------------------*/
+footer{
+    text-align: center;
+    font-size: 25px;
+}
+.logo img{
+    width: 483px;
+
+}
