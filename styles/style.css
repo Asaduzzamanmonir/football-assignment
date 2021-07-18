@@ -156,70 +156,45 @@ Media Quaries
 /* --------------------
       For Mobile-Phone----
 ---------------------------*/
-@media only screen and (max-width: 688px) {
-    .top{
-        margin-top: 0px;
-        height: 580px;
-        width: 688px;
-    }
-    .topper{
-        display: block;
-        margin-top: 0;
-        flex-direction: column;
-        
-    }
-    .topper-text h1{
-        line-height: 40px;
-        font-size: 30px;
-        margin-top: 10px;
-    }
-    .topper-banner img{
-        margin-top: 70px;
-        width: 330px;
-        height: 260px;
-        margin-left: 110px;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    .players{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .player{
-        margin-top: 20px;
-        height: 474px;
-        width: 330px;
-    }
-    .player img{
-        width: 100%;
-    }
-    .highlights{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .highlight-text{
-        width: 330px;
-        height: 300px;
-        margin-top: 0;
-        
-    }
-    .highlight-picture{
-        width: 328px;
-        height: 248px;
-        margin-top: 120px;
-        margin-left: 120px;
-
-    }
+ @media only screen (max-width: 688px) {
+        .top{
+            width: 100%;
+        }
+        header{
+         padding: 30px 0;
+        }
+        .topper{
+            grid-template-columns: repeat(1, 1fr);
+            padding: 0 16px;
+        }
+        .topper-text h1{
+            font-size: 36px;
+        }
+        .topper-banner .topper{
+            padding: 35px;
+        }
+        .topper-banner img{
+            width: 100%;
+            height: auto;
+        }
+        .players{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .player img{
+            width: 100%;
+            height: auto;
+        }
+        .highlights{
+            grid-template-columns: repeat(1, 1fr);
+            padding: 35px 0;
+        }
+        .highlight-picture{
+            margin-top: 29px;
+        }
+        .logo img{
+            width: 100%;
+            height: auto;
+        }
 
     
 
