@@ -30,6 +30,8 @@ It is header
     line-height: 70px;
 
 }
+
+
 .watch-now{
     text-decoration: none;
     background-color: #E02C6D;
@@ -37,6 +39,9 @@ It is header
     padding: 10px 20px;
     font-weight: 500;
     border-radius: 5px;
+}
+.watch-now:hover{
+    background-color: red;
 }
 
 }
@@ -80,11 +85,17 @@ main player section
     border: solid 1px white;
     box-shadow: 0 0 40px gray;
     
+    
+}
+.player:hover{
+    border: solid 1px red;
+    
 }
 .player img{
         width: 100%;
         
 }
+
 
 /* ---------------------------
      Highlight Section Style---
@@ -93,6 +104,7 @@ main player section
     display: flex;
     margin-top: 150px;
     margin-bottom: 155px;
+    
 }
 .highlight-text{
     width: 470px;
@@ -109,6 +121,7 @@ main player section
 
 .highlight-picture{
     width: 40%;
+    overflow: hidden;
 }
 .highlight-picture img{
     width: 567px;
@@ -116,9 +129,11 @@ main player section
     margin-left: 33px;
 }
 
-.highlight-picture img{
-    width: 567px;
-    height: 427px;
+
+
+.highlight-picture:hover img{
+    transform: scale(1.1);
+     transition: transform 2s ease-in-out;
 }
 
 /* ----------------------
@@ -129,6 +144,83 @@ footer{
     font-size: 25px;
 }
 .logo img{
-    width: 483px;
+    width: 400px;
+
+}
+
+
+/* ----------------
+Media Quaries 
+-------------------*/
+
+/* --------------------
+      For Mobile-Phone----
+---------------------------*/
+@media only screen and (max-width: 688px) {
+    .top{
+        margin-top: 0px;
+        height: 580px;
+        width: 688px;
+    }
+    .topper{
+        display: block;
+        margin-top: 0;
+        flex-direction: column;
+        
+    }
+    .topper-text h1{
+        line-height: 40px;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .topper-banner img{
+        margin-top: 70px;
+        width: 330px;
+        height: 260px;
+        margin-left: 110px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .players{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .player{
+        margin-top: 20px;
+        height: 474px;
+        width: 330px;
+    }
+    .player img{
+        width: 100%;
+    }
+    .highlights{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .highlight-text{
+        width: 330px;
+        height: 300px;
+        margin-top: 0;
+        
+    }
+    .highlight-picture{
+        width: 328px;
+        height: 248px;
+        margin-top: 120px;
+        margin-left: 120px;
+
+    }
+
+    
 
 }
